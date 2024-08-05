@@ -3,8 +3,8 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "133f7a1ae67ad9ceb970e629244c1c82",
-"assets/AssetManifest.json": "fc25fa999171314fd7359c8e668f792c",
+const RESOURCES = {"assets/AssetManifest.bin": "acf05a318ed28cb4e3cb760205c9c58e",
+"assets/AssetManifest.json": "54610a371f34e29994c6653cd3107776",
 "assets/assets/common_icons/ic_arrow_right.svg": "6f2c66fcf8fec29c42833f5670f0e807",
 "assets/assets/common_icons/ic_bank_black.svg": "b2c28ba921c2d99f28f217873e9ba5fe",
 "assets/assets/common_icons/ic_bank_white.svg": "1ad64cf74e045830ee4e1ccec212d873",
@@ -216,7 +216,6 @@ const RESOURCES = {"assets/AssetManifest.bin": "133f7a1ae67ad9ceb970e629244c1c82
 "assets/images/ic_minus_circle.svg": "de0e619b29baa099e673eb960ae09fc3",
 "assets/images/ic_mobile.svg": "bef39b2b4685609533f4298c67754bb6",
 "assets/images/ic_mobile_banking.png": "c1a34a44e41395d78a25188d7d1599f9",
-"assets/images/ic_mobile_banking.svg": "ba84a4204987622b816c9efa9379ada9",
 "assets/images/ic_next.svg": "dc7fb6d631a40a753772d550801cfcbf",
 "assets/images/ic_ninjapay_circle.svg": "462f8f0aa6dedc49da9c4a55422c5603",
 "assets/images/ic_ninja_pay.png": "5a9089fb3765248a1ceee970a6b7967e",
@@ -357,8 +356,8 @@ const RESOURCES = {"assets/AssetManifest.bin": "133f7a1ae67ad9ceb970e629244c1c82
 "icons/ic_launcher_bg_white.png": "1380d1ad78d2e2fd27a065e01427cb88",
 "icons/ninjapay_live.svg": "19a9284811379101cba4fa339a11c15c",
 "icons/ninjapay_live_link.png": "8f0dcf9e8ddf11e9f8a3ac0079317264",
-"index.html": "28a63272276a5412815f2b9e5cfdedb6",
-"/": "28a63272276a5412815f2b9e5cfdedb6",
+"index.html": "77a1efdcd84a86ebf06ff1ba29ff4c29",
+"/": "77a1efdcd84a86ebf06ff1ba29ff4c29",
 "main.dart.js": "f3f46e5319020b5bcfc13d5ce2b4650b",
 "manifest.json": "cdc2090520354438b06bd8dc0855a998",
 "ninjapay_live_link.png": "8f0dcf9e8ddf11e9f8a3ac0079317264",
