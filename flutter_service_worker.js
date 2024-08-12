@@ -356,9 +356,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "acf05a318ed28cb4e3cb760205c9c58e
 "icons/ic_launcher_bg_white.png": "1380d1ad78d2e2fd27a065e01427cb88",
 "icons/ninjapay_live.svg": "19a9284811379101cba4fa339a11c15c",
 "icons/ninjapay_live_link.png": "8f0dcf9e8ddf11e9f8a3ac0079317264",
-"index.html": "389a84427a4a81ea014afa6f49e89612",
-"/": "389a84427a4a81ea014afa6f49e89612",
-"main.dart.js": "f1fc53fa1629ebc2bd059ee0b7b9b1a7",
+"index.html": "a26f1915297c0e17aaa65ca69686db62",
+"/": "a26f1915297c0e17aaa65ca69686db62",
+"main.dart.js": "d49d709dca831f0660e57cf6c3b3753d",
 "manifest.json": "cdc2090520354438b06bd8dc0855a998",
 "ninjapay_live_link.png": "8f0dcf9e8ddf11e9f8a3ac0079317264",
 "version.json": "d4960b3b46d103862db9726c4d637f4e"};
