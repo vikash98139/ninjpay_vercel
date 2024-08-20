@@ -3,8 +3,8 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "acf05a318ed28cb4e3cb760205c9c58e",
-"assets/AssetManifest.json": "54610a371f34e29994c6653cd3107776",
+const RESOURCES = {"assets/AssetManifest.bin": "0f2706e4c2c415b09fc6f4f5e82f491b",
+"assets/AssetManifest.json": "563f16104dc7ba19eccc47e7b277fd4d",
 "assets/assets/common_icons/ic_arrow_right.svg": "6f2c66fcf8fec29c42833f5670f0e807",
 "assets/assets/common_icons/ic_bank_black.svg": "b2c28ba921c2d99f28f217873e9ba5fe",
 "assets/assets/common_icons/ic_bank_white.svg": "1ad64cf74e045830ee4e1ccec212d873",
@@ -259,6 +259,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "acf05a318ed28cb4e3cb760205c9c58e
 "assets/images/ic_upi_check.svg": "fb62a54ec857061abca774ab6a7c566d",
 "assets/images/ic_upi_with_bg.png": "1ae2071a10085df2d006b473e3688fa2",
 "assets/images/ic_upload.svg": "3604818ac01356dc3d4d72e518830666",
+"assets/images/ic_upload_grey.svg": "e71d676102720e3d56409682575d14ff",
 "assets/images/ic_usdt_logo.png": "ab686f703c1f680e1ce94ad96827596c",
 "assets/images/ic_usdt_wallet.svg": "ed4b38fb7118363a4967ce7d4f1d9cb5",
 "assets/images/ic_user.svg": "961dcca4d6ef39680c676e1e2bd575b5",
@@ -356,9 +357,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "acf05a318ed28cb4e3cb760205c9c58e
 "icons/ic_launcher_bg_white.png": "1380d1ad78d2e2fd27a065e01427cb88",
 "icons/ninjapay_live.svg": "19a9284811379101cba4fa339a11c15c",
 "icons/ninjapay_live_link.png": "8f0dcf9e8ddf11e9f8a3ac0079317264",
-"index.html": "cc52b58645a3ae06deb632c1bb7e9dbe",
-"/": "cc52b58645a3ae06deb632c1bb7e9dbe",
-"main.dart.js": "bfcac180f2ef73d105dfc8e84746254d",
+"index.html": "89e7b22065c04ac03e548713917c5a72",
+"/": "89e7b22065c04ac03e548713917c5a72",
+"main.dart.js": "fcd3d0df969511eea2787efc383957c1",
 "manifest.json": "cdc2090520354438b06bd8dc0855a998",
 "ninjapay_live_link.png": "8f0dcf9e8ddf11e9f8a3ac0079317264",
 "version.json": "d4960b3b46d103862db9726c4d637f4e"};
