@@ -1,11 +1,11 @@
 {
-  "name": "ninjapay",
-  "short_name": "ninjapay",
+  "name": "Ninjapay",
+  "short_name": "Ninjapay",
   "start_url": ".",
   "display": "standalone",
-  "background_color": "#0175C2",
-  "theme_color": "#0175C2",
-  "description": "A new Flutter project.",
+  "background_color": "#88A1AC",
+  "theme_color": "#88A1AC",
+  "description": "The fastest way to send and receive money worldwide. Invest in bitcoin. Play games, and do a lot more.",
   "orientation": "portrait-primary",
   "prefer_related_applications": false,
   "icons": [

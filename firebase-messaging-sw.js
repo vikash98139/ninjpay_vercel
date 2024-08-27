@@ -2,13 +2,13 @@ importScripts("https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js");
 importScripts("https://www.gstatic.com/firebasejs/8.6.1/firebase-messaging.js");
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDVTUp-0zmV-0vdywqt0iCbHCCnuEsVadM",
-  authDomain: "ninjapay-24b2f.firebaseapp.com",
-  projectId: "ninjapay-24b2f",
-  storageBucket: "ninjapay-24b2f.appspot.com",
-  messagingSenderId: "223863695725",
-  appId: "1:223863695725:web:1f43a117b579e07d9e1264",
-//          measurementId: "G-KN1L1LNKN7"
+    apiKey: "AIzaSyDVTUp-0zmV-0vdywqt0iCbHCCnuEsVadM",
+    authDomain: "ninjapay-24b2f.firebaseapp.com",
+    projectId: "ninjapay-24b2f",
+    storageBucket: "ninjapay-24b2f.appspot.com",
+    messagingSenderId: "223863695725",
+    appId: "1:223863695725:web:a8ab50d3d2e7a1769e1264",
+    measurementId: "G-K0KY1HD87S"
 };
 firebase.initializeApp(firebaseConfig);
 const messaging = firebase.messaging();

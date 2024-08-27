@@ -27,7 +27,7 @@
 <body>
 
 <script>
-    const serviceWorkerVersion = "324300654";
+    const serviceWorkerVersion = "1634751102";
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
@@ -96,6 +96,30 @@
 <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-messaging.js"></script>
 <script defer src="flutter.js"></script>
+
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyDVTUp-0zmV-0vdywqt0iCbHCCnuEsVadM",
+    authDomain: "ninjapay-24b2f.firebaseapp.com",
+    projectId: "ninjapay-24b2f",
+    storageBucket: "ninjapay-24b2f.appspot.com",
+    messagingSenderId: "223863695725",
+    appId: "1:223863695725:web:a8ab50d3d2e7a1769e1264",
+    measurementId: "G-K0KY1HD87S"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
 </body>
 </html>
 
