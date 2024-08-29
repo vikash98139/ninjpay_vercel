@@ -1,6 +1,7 @@
 {
   "name": "Ninjapay",
   "short_name": "Ninjapay",
+  "site": "ninjapay-mobile",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#88A1AC",
