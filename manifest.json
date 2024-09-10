@@ -11,23 +11,23 @@
   "prefer_related_applications": false,
   "icons": [
     {
-      "src": "splash/img/dark-4x.png",
+      "src": "icons/default_splash_white.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "splash/img/dark-4x.png",
+      "src": "icons/default_splash_white.png",
       "sizes": "512x512",
       "type": "image/png"
     },
     {
-      "src": "splash/img/dark-4x.png",
+      "src": "icons/default_splash_white.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "splash/img/dark-4x.png",
+      "src": "icons/default_splash_white.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
@@ -39,7 +39,7 @@
   },
   "action": {
     "default_popup": "index.html",
-    "default_icon": "splash/img/dark-4x.png"
+    "default_icon": "/icons/default_splash_white.png"
   },
   "manifest_version": 3
 }
