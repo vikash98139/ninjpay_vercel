@@ -11,26 +11,14 @@
   "prefer_related_applications": false,
   "icons": [
     {
-      "src": "icons/ninjapay_live_link.png",
+      "src": "icons/ic_launcher_bg_white.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "icons/ninjapay_live_link.png",
+      "src": "icons/ic_launcher_bg_white.png",
       "sizes": "512x512",
       "type": "image/png"
-    },
-    {
-      "src": "icons/ninjapay_live_link.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "maskable"
-    },
-    {
-      "src": "icons/ninjapay_live_link.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
     }
   ],
   "version": "1.0.0",
