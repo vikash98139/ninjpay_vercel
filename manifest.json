@@ -4,7 +4,7 @@
   "site": "ninjapay-mobile",
   "start_url": ".",
   "display": "standalone",
-  "background_color": "#88A1AC",
+  "background_color": "#CF7381",
   "theme_color": "#CF7381",
   "description": "The fastest way to send and receive money worldwide. Invest in bitcoin. Play games, and do a lot more.",
   "orientation": "portrait-primary",
