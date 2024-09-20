@@ -1,9 +1,25 @@
-<!DOCTYPE html><html><head>
-    <base href="/">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html>
+<html>
+<head>
+
     <meta charset="UTF-8">
+    <title>Ninjapay</title>
+<!--    <meta name="description" content="A new Flutter web project.">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"-->
+<!--          name="viewport">-->
+    <link rel="manifest" href="manifest.json">
+    <link href="icons/ic_launcher_bg_white.png" rel="icon" type="image/png">
+
+    <script src="main.dart.js" defer></script>
+
+
+
+    <base href="/">
     <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-    <meta content="The fastest way to send and receive money worldwide. Invest in bitcoin. Play games, and do a lot more." name="description">
+    <meta content="The fastest way to send and receive money worldwide. Invest in bitcoin. Play games, and do a lot more."
+          name="description">
     <meta content="Flutter" name="author">
     <meta http-equiv="Content-Security-Policy" content="block-all-mixed-content">
 
@@ -13,203 +29,183 @@
     <meta content="abccc" name="apple-mobile-web-app-title">
     <link href="icons/ic_launcher_bg_white.png" rel="apple-touch-icon">
 
-    <!-- Favicon -->
-    <link href="icons/ic_launcher_bg_white.png" rel="icon" type="image/png">
-
-    <title>Ninjapay</title>
-    <link href="manifest.json" rel="manifest">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/croppie/2.6.5/croppie.css" rel="stylesheet">
     <script defer="" src="https://cdnjs.cloudflare.com/ajax/libs/exif-js/2.3.0/exif.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/croppie/2.6.5/croppie.min.js"></script>
-    <script type="application/javascript" src="/assets/packages/flutter_inappwebview_web/assets/web/web_support.js" defer=""></script>
-
-
-    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
-
-
+    <script type="application/javascript"
+            src="/assets/packages/flutter_inappwebview_web/assets/web/web_support.js"
+            defer=""></script>
 
 
 
 
+<!--    <style id="splash-screen-style">-->
+<!--    html {-->
+<!--      height: 100%-->
+<!--    }-->
+
+<!--    body {-->
+<!--      margin: 0;-->
+<!--      min-height: 100%;-->
+<!--      background-color: #ffffff;-->
+<!--          background-size: 100% 100%;-->
+<!--    }-->
+
+<!--    .center {-->
+<!--      margin: 0;-->
+<!--      position: absolute;-->
+<!--      top: 50%;-->
+<!--      left: 50%;-->
+<!--      -ms-transform: translate(-50%, -50%);-->
+<!--      transform: translate(-50%, -50%);-->
+<!--    }-->
+
+<!--    .contain {-->
+<!--      display:block;-->
+<!--      width:100%; height:100%;-->
+<!--      object-fit: contain;-->
+<!--    }-->
+
+<!--    .stretch {-->
+<!--      display:block;-->
+<!--      width:100%; height:100%;-->
+<!--    }-->
+
+<!--    .cover {-->
+<!--      display:block;-->
+<!--      width:100%; height:100%;-->
+<!--      object-fit: cover;-->
+<!--    }-->
+
+<!--    .bottom {-->
+<!--      position: absolute;-->
+<!--      bottom: 0;-->
+<!--      left: 50%;-->
+<!--      -ms-transform: translate(-50%, 0);-->
+<!--      transform: translate(-50%, 0);-->
+<!--    }-->
+
+<!--    .bottomLeft {-->
+<!--      position: absolute;-->
+<!--      bottom: 0;-->
+<!--      left: 0;-->
+<!--    }-->
+
+<!--    .bottomRight {-->
+<!--      position: absolute;-->
+<!--      bottom: 0;-->
+<!--      right: 0;-->
+<!--    }-->
+
+<!--    @media (prefers-color-scheme: dark) {-->
+<!--      body {-->
+<!--        background-color: #000000;-->
+<!--          }-->
+<!--    }-->
+<!--  -->
+<!--    </style>-->
+<!--    <script id="splash-screen-script">-->
+<!--    function removeSplashFromWeb() {-->
+<!--      document.getElementById("splash")?.remove();-->
+<!--      document.getElementById("splash-branding")?.remove();-->
+<!--      document.body.style.background = "transparent";-->
+<!--    }-->
+<!--  -->
+<!--    </script>-->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <style id="splash-screen-style">
-    html {
-      height: 100%
-    }
-
-    body {
-      margin: 0;
-      min-height: 100%;
-      background-color: #ffffff;
-          background-size: 100% 100%;
-    }
-
-    .center {
-      margin: 0;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-    }
-
-    .contain {
-      display:block;
-      width:100%; height:100%;
-      object-fit: contain;
-    }
-
-    .stretch {
-      display:block;
-      width:100%; height:100%;
-    }
-
-    .cover {
-      display:block;
-      width:100%; height:100%;
-      object-fit: cover;
-    }
-
-    .bottom {
-      position: absolute;
-      bottom: 0;
-      left: 50%;
-      -ms-transform: translate(-50%, 0);
-      transform: translate(-50%, 0);
-    }
-
-    .bottomLeft {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-    }
-
-    .bottomRight {
-      position: absolute;
-      bottom: 0;
-      right: 0;
-    }
-
-    @media (prefers-color-scheme: dark) {
-      body {
-        background-color: #000000;
-          }
-    }
-  </style>
-    <script id="splash-screen-script">
-    function removeSplashFromWeb() {
-      document.getElementById("splash")?.remove();
-      document.getElementById("splash-branding")?.remove();
-      document.body.style.background = "transparent";
-    }
-  </script>
 </head>
+
 <body>
-<picture id="splash">
-    <source srcset="splash/img/light-1x.png 1x, splash/img/light-2x.png 2x, splash/img/light-3x.png 3x, splash/img/light-4x.png 4x" media="(prefers-color-scheme: light)">
-    <source srcset="splash/img/dark-1x.png 1x, splash/img/dark-2x.png 2x, splash/img/dark-3x.png 3x, splash/img/dark-4x.png 4x" media="(prefers-color-scheme: dark)">
-    <img class="center" aria-hidden="true" src="splash/img/light-1x.png" alt="">
-</picture>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<div id="loading">
+    <div class="lds-dual-ring"></div>
+</div>
 <script>
-    const serviceWorkerVersion = "4088514920";
-    var scriptLoaded = false;
-    function loadMainDartJs() {
-      if (scriptLoaded) {
-        return;
-      }
-      scriptLoaded = true;
-      var scriptTag = document.createElement("script");
-      scriptTag.src = "main.dart.js";
-      scriptTag.type = "application/javascript";
-      document.body.append(scriptTag);
-    }
-
-    if ("serviceWorker" in navigator) {
-      // Service workers are supported. Use them.
-      window.addEventListener("load", function () {
-        // Wait for registration to finish before dropping the <script> tag.
-        // Otherwise, the browser will load the script multiple times,
-        // potentially different versions.
-        var serviceWorkerUrl =
-          "flutter_service_worker.js?v=" + serviceWorkerVersion;
-        navigator.serviceWorker.register(serviceWorkerUrl).then((reg) => {
-          function waitForActivation(serviceWorker) {
-            serviceWorker.addEventListener("statechange", () => {
-              if (serviceWorker.state == "activated") {
-                console.log("Installed new service worker.");
-                loadMainDartJs();
-              }
-            });
-          }
-          if (!reg.active && (reg.installing || reg.waiting)) {
-            // No active web worker and we have installed or are installing
-            // one for the first time. Simply wait for it to activate.
-            waitForActivation(reg.installing ?? reg.waiting);
-          } else if (!reg.active.scriptURL.endsWith(serviceWorkerVersion)) {
-            // When the app updates the serviceWorkerVersion changes, so we
-            // need to ask the service worker to update.
-            console.log("New service worker available.");
-            reg.update();
-            waitForActivation(reg.installing);
-          } else {
-            // Existing service worker is still good.
-            console.log("Loading app from service worker.");
-            loadMainDartJs();
-          }
-        });
-
-        // If service worker doesn't succeed in a reasonable amount of time,
-        // fallback to plaint <script> tag.
-        setTimeout(() => {
-          if (!scriptLoaded) {
-            console.warn(
-              "Failed to load app from service worker. Falling back to plain <script> tag."
-            );
-            loadMainDartJs();
-          }
-        }, 4000);
+      window.addEventListener("load", function (event) {
+        document.getElementById("loading").style.display = "none";
       });
-    } else {
-      // Service workers not supported. Just drop the <script> tag.
-      loadMainDartJs();
-    }
-</script>
-</body></html>
+    </script>
+<script>
+      // For offline support
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('flutter_service_worker.js?v=2343327358');
+      }
+    </script>
+</body>
+<!--<body>-->
+<!--<picture id="splash">-->
+<!--    <source srcset="splash/img/light-1x.png 1x, splash/img/light-2x.png 2x, splash/img/light-3x.png 3x, splash/img/light-4x.png 4x"-->
+<!--            media="(prefers-color-scheme: light)">-->
+<!--    <source srcset="splash/img/dark-1x.png 1x, splash/img/dark-2x.png 2x, splash/img/dark-3x.png 3x, splash/img/dark-4x.png 4x"-->
+<!--            media="(prefers-color-scheme: dark)">-->
+<!--    <img class="center" aria-hidden="true" src="splash/img/light-1x.png" alt="">-->
+<!--</picture>-->
+
+
+<!--<script>-->
+<!--    const serviceWorkerVersion = "2343327358";-->
+<!--    var scriptLoaded = false;-->
+<!--    function loadMainDartJs() {-->
+<!--      if (scriptLoaded) {-->
+<!--        return;-->
+<!--      }-->
+<!--      scriptLoaded = true;-->
+<!--      var scriptTag = document.createElement("script");-->
+<!--      scriptTag.src = "main.dart.js";-->
+<!--      scriptTag.type = "application/javascript";-->
+<!--      document.body.append(scriptTag);-->
+<!--    }-->
+
+<!--    if ("serviceWorker" in navigator) {-->
+<!--      // Service workers are supported. Use them.-->
+<!--      window.addEventListener("load", function () {-->
+<!--        // Wait for registration to finish before dropping the <script> tag.-->
+<!--        // Otherwise, the browser will load the script multiple times,-->
+<!--        // potentially different versions.-->
+<!--        var serviceWorkerUrl =-->
+<!--          "flutter_service_worker.js?v=" + serviceWorkerVersion;-->
+<!--        navigator.serviceWorker.register(serviceWorkerUrl).then((reg) => {-->
+<!--          function waitForActivation(serviceWorker) {-->
+<!--            serviceWorker.addEventListener("statechange", () => {-->
+<!--              if (serviceWorker.state == "activated") {-->
+<!--                console.log("Installed new service worker.");-->
+<!--                loadMainDartJs();-->
+<!--              }-->
+<!--            });-->
+<!--          }-->
+<!--          if (!reg.active && (reg.installing || reg.waiting)) {-->
+<!--            // No active web worker and we have installed or are installing-->
+<!--            // one for the first time. Simply wait for it to activate.-->
+<!--            waitForActivation(reg.installing ?? reg.waiting);-->
+<!--          } else if (!reg.active.scriptURL.endsWith(serviceWorkerVersion)) {-->
+<!--            // When the app updates the serviceWorkerVersion changes, so we-->
+<!--            // need to ask the service worker to update.-->
+<!--            console.log("New service worker available.");-->
+<!--            reg.update();-->
+<!--            waitForActivation(reg.installing);-->
+<!--          } else {-->
+<!--            // Existing service worker is still good.-->
+<!--            console.log("Loading app from service worker.");-->
+<!--            loadMainDartJs();-->
+<!--          }-->
+<!--        });-->
+
+<!--        // If service worker doesn't succeed in a reasonable amount of time,-->
+<!--        // fallback to plaint <script> tag.-->
+<!--        setTimeout(() => {-->
+<!--          if (!scriptLoaded) {-->
+<!--            console.warn(-->
+<!--              "Failed to load app from service worker. Falling back to plain <script> tag."-->
+<!--            );-->
+<!--            loadMainDartJs();-->
+<!--          }-->
+<!--        }, 4000);-->
+<!--      });-->
+<!--    } else {-->
+<!--      // Service workers not supported. Just drop the <script> tag.-->
+<!--      loadMainDartJs();-->
+<!--    }-->
+
+<!--</script>-->
+<!--</body>-->
+</html>
