@@ -111,24 +111,45 @@
 <!--  -->
 <!--    </script>-->
 
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #ffffff; /* Background color */
+      }
 
+      #splash-screen {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      #splash-screen img {
+        width: 200px; /* Adjust as needed */
+        height: auto;
+      }
+    </style>
 </head>
 
 <body>
-<div id="loading">
-    <div class="lds-dual-ring"></div>
+<!-- Splash Screen -->
+<div id="splash-screen">
+    <img src="icons/ic_launcher_bg_white.png" alt="App Logo" />
 </div>
+
 <script>
-      window.addEventListener("load", function (event) {
-        document.getElementById("loading").style.display = "none";
+      // This removes the splash screen when the Flutter app is ready
+      window.addEventListener('load', function() {
+        document.getElementById('splash-screen').style.display = 'none';
       });
     </script>
-<script>
-      // For offline support
-      if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=1787016709');
-      }
-    </script>
+
+<script src="main.dart.js" type="application/javascript"></script>
 </body>
 <!--<body>-->
 <!--<picture id="splash">-->
@@ -141,7 +162,7 @@
 
 
 <!--<script>-->
-<!--    const serviceWorkerVersion = "1787016709";-->
+<!--    const serviceWorkerVersion = "2205516531";-->
 <!--    var scriptLoaded = false;-->
 <!--    function loadMainDartJs() {-->
 <!--      if (scriptLoaded) {-->
