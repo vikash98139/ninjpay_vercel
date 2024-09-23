@@ -6,6 +6,7 @@
     <title>Ninjapay</title>
     <meta name="description" content="The fastest way to send and receive money worldwide. Invest in bitcoin. Play games, and do a lot more.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000000"> <!-- Your theme color -->
 
 <!--    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"-->
 <!--          name="viewport">-->
@@ -36,6 +37,19 @@
 
 
 
+
+    <!-- Custom Splash Screen Background Color -->
+    <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000000; /* Replace with your splash background color */
+    }
+    /* Hide the app until Flutter is fully loaded */
+    #flutterLoading {
+      display: none;
+    }
+  </style>
 
 <!--    <style id="splash-screen-style">-->
 <!--    html {-->
@@ -165,7 +179,7 @@
     <img src="icons/ic_launcher_bg_white.png" alt="App Logo" />
 </div>
 <script>
-    const serviceWorkerVersion = "3694311436";
+    const serviceWorkerVersion = "924893421";
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
