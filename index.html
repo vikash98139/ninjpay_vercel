@@ -15,7 +15,8 @@
     <meta id="themeColor" name="theme-color" content="#000000"> <!-- Default theme color -->
 
     <link rel="manifest" href="manifest.json">
-    <link href="icons/ic_launcher.png" rel="icon" type="image/png">
+<!--    <link href="icons/ic_launcher.png" rel="icon" type="image/png">-->
+    <link href="icons/ninjapay_live_link.png" rel="apple-touch-icon">
 
     <script src="main.dart.js" defer></script>
 
@@ -129,14 +130,14 @@
 <!--    </script>-->
 
 
-<!--    <script type="text/javascript">-->
-<!--      function changeThemeColor(color) {-->
-<!--        var metaThemeColor = document.querySelector("meta[name=theme-color]");-->
-<!--        if (metaThemeColor) {-->
-<!--          metaThemeColor.setAttribute("content", color);-->
-<!--        }-->
-<!--      }-->
-<!--    </script>-->
+    <script type="text/javascript">
+      function changeThemeColor(color) {
+        var metaThemeColor = document.querySelector("meta[name=theme-color]");
+        if (metaThemeColor) {
+          metaThemeColor.setAttribute("content", color);
+        }
+      }
+    </script>
 
     <style>
       body {
@@ -189,10 +190,11 @@
 
 
 <div id="splash-screen">
-    <img src="icons/ic_launcher.png" alt="App Logo" />
+    <img src="icons/ninjapay_live_link.png" alt="App Logo" />
+<!--    <img src="icons/ic_launcher.png" alt="App Logo" />-->
 </div>
 <script>
-    const serviceWorkerVersion = "3927421783";
+    const serviceWorkerVersion = "2003352435";
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
