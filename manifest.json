@@ -11,12 +11,12 @@
   "prefer_related_applications": false,
   "icons": [
     {
-      "src": "icons/ic_launcher_bg_white.png",
+      "src": "icons/ic_launcher.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "icons/ic_launcher_bg_white.png",
+      "src": "icons/ic_launcher.png",
       "sizes": "512x512",
       "type": "image/png"
     }
@@ -27,7 +27,7 @@
   },
   "action": {
     "default_popup": "index.html",
-    "default_icon": "/icons/ic_launcher_bg_white.png"
+    "default_icon": "/icons/ic_launcher.png"
   },
   "manifest_version": 3
 }
