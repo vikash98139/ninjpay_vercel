@@ -1,33 +1,45 @@
 {
-  "name": "Ninjapay",
-  "short_name": "Ninjapay",
-  "site": "ninjapay-mobile",
-  "start_url": ".",
-  "display": "standalone",
-  "background_color": "#000000",
-  "theme_color": "#000000",
-  "description": "The fastest way to send and receive money worldwide. Invest in bitcoin. Play games, and do a lot more.",
-  "orientation": "portrait-primary",
-  "prefer_related_applications": false,
-  "icons": [
-    {
-      "src": "icons/ic_launcher.png",
-      "sizes": "192x192",
-      "type": "image/png"
+    "name": "Ninjapay",
+    "short_name": "Ninjapay",
+    "site": "ninjapay-mobile",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#FFFFFF",
+    "theme_color": "#000000",
+    "description": "The fastest way to send and receive money worldwide. Invest in bitcoin. Play games, and do a lot more.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "version": "1.0.0",
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self'; script-src-elem 'self' 'unsafe-inline';"
     },
-    {
-      "src": "icons/ic_launcher.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
-  ],
-  "version": "1.0.0",
-  "content_security_policy": {
-    "extension_pages": "script-src 'self'; object-src 'self'; script-src-elem 'self' 'unsafe-inline';"
-  },
-  "action": {
-    "default_popup": "index.html",
-    "default_icon": "/icons/ic_launcher.png"
-  },
-  "manifest_version": 3
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "/icons/ic_launcher.png"
+    },
+    "manifest_version": 3,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
 }
