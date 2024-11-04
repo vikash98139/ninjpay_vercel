@@ -15,17 +15,17 @@
     },
     "action": {
         "default_popup": "index.html",
-        "default_icon": "/icons/ic_launcher_bg_white.png"
+        "default_icon": "/icons/default_splash_black.png"
     },
     "manifest_version": 3,
     "icons": [
         {
-            "src": "icons/ic_launcher_bg_white.png",
+            "src": "icons/default_splash_black.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "icons/ic_launcher_bg_white.png",
+            "src": "icons/default_splash_black.png",
             "sizes": "512x512",
             "type": "image/png"
         }
