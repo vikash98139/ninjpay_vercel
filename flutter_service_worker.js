@@ -1192,7 +1192,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "28593f4d4a6a9c58406cfbb6f35d773d
 "firebase-messaging-sw.js": "c6cae5cee626cd539b9cd61b497cd85c",
 "firebase_info.js": "55b64b7f658b0358e23dc0204b7e0c5f",
 "flutter.js": "f31737fb005cd3a3c6bd9355efd33061",
-"flutter_bootstrap.js": "224c4a711a919ec303d7a0dec7320117",
+"flutter_bootstrap.js": "715460ddd6ec1eee01f8e9f253998995",
 "icons/apple-touch-icon.png": "04132d22b5f13bd5d76f54b5141741ab",
 "icons/Icon-192.png": "55965dfe15070e157e56cc52d39236a3",
 "icons/Icon-512.png": "8d11d384f7b527c21818120f9c8ade7b",
@@ -1204,12 +1204,16 @@ const RESOURCES = {"assets/AssetManifest.bin": "28593f4d4a6a9c58406cfbb6f35d773d
 "icons/ic_web3_launcher.png": "3340d861901ca5331b9b48e1466a7f6e",
 "icons/ninjapay_live.svg": "1580450778f37c2440127ee5bbab14dd",
 "icons/ninjapay_live_link.png": "8f0dcf9e8ddf11e9f8a3ac0079317264",
-"index.html": "cd626298d1d36239220baafe6d36c0f9",
-"/": "cd626298d1d36239220baafe6d36c0f9",
+"index.html": "69b65bc8f1748c38a417191488bc2e6b",
+"/": "69b65bc8f1748c38a417191488bc2e6b",
 "loader.css": "caa988b41196b5fa0e611a8c1fc2db9b",
 "main.dart.js": "d63a8aa0ca791c10578121aa74d63a98",
 "manifest.json": "0ddd8061e2b9913c5956f2b2b98e235c",
 "ninjapay_live_link.png": "8f0dcf9e8ddf11e9f8a3ac0079317264",
+"splash/img/dark-1x.png": "1d0fa4f0060aeb63d965e511197203ec",
+"splash/img/dark-2x.png": "2d476db453393091d37c9ce52e3c5de3",
+"splash/img/dark-3x.png": "39e212eb3988878ee3970b45b37fcabe",
+"splash/img/dark-4x.png": "884a910991a9cf2f9cbb13adbaaca2b3",
 "version.json": "d4960b3b46d103862db9726c4d637f4e"};
 // The application shell files that are downloaded before a service worker can
 // start.

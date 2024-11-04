@@ -31,18 +31,6 @@
 
     <script type="application/javascript" src="/assets/packages/flutter_inappwebview_web/assets/web/web_support.js" defer=""></script>
 
-
-<!--    <script type="text/javascript">-->
-<!--      function changeThemeColor(color) {-->
-<!--        var metaThemeColor = document.querySelector("meta[name=theme-color]");-->
-<!--        if (metaThemeColor) {-->
-<!--          metaThemeColor.setAttribute("content", color);-->
-<!--        }-->
-<!--      }-->
-<!--    </script>-->
-
-  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
-
     <style>
   /* Light theme */
   body {
@@ -69,83 +57,85 @@
   }
 </style>
 
-    <!--  -->
-<!--  <style id="splash-screen-style">-->
-<!--    html {-->
-<!--      height: 100%-->
-<!--    }-->
+  
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+  <style id="splash-screen-style">
 
-<!--    body {-->
-<!--      margin: 0;-->
-<!--      min-height: 100%;-->
-<!--      background-color: #ffffff;-->
-<!--          background-size: 100% 100%;-->
-<!--    }-->
+    html {
+      height: 100%
+    }
 
-<!--    .center {-->
-<!--      margin: 0;-->
-<!--      position: absolute;-->
-<!--      top: 50%;-->
-<!--      left: 50%;-->
-<!--      -ms-transform: translate(-50%, -50%);-->
-<!--      transform: translate(-50%, -50%);-->
-<!--    }-->
+    body {
+      margin: 0;
+      min-height: 100%;
+      background-color: #ffffff;
+          background-size: 100% 100%;
+    }
 
-<!--    .contain {-->
-<!--      display:block;-->
-<!--      width:100%; height:100%;-->
-<!--      object-fit: contain;-->
-<!--    }-->
+    .center {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
 
-<!--    .stretch {-->
-<!--      display:block;-->
-<!--      width:100%; height:100%;-->
-<!--    }-->
+    .contain {
+      display:block;
+      width:100%; height:100%;
+      object-fit: contain;
+    }
 
-<!--    .cover {-->
-<!--      display:block;-->
-<!--      width:100%; height:100%;-->
-<!--      object-fit: cover;-->
-<!--    }-->
+    .stretch {
+      display:block;
+      width:100%; height:100%;
+    }
 
-<!--    .bottom {-->
-<!--      position: absolute;-->
-<!--      bottom: 0;-->
-<!--      left: 50%;-->
-<!--      -ms-transform: translate(-50%, 0);-->
-<!--      transform: translate(-50%, 0);-->
-<!--    }-->
+    .cover {
+      display:block;
+      width:100%; height:100%;
+      object-fit: cover;
+    }
 
-<!--    .bottomLeft {-->
-<!--      position: absolute;-->
-<!--      bottom: 0;-->
-<!--      left: 0;-->
-<!--    }-->
+    .bottom {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      -ms-transform: translate(-50%, 0);
+      transform: translate(-50%, 0);
+    }
 
-<!--    .bottomRight {-->
-<!--      position: absolute;-->
-<!--      bottom: 0;-->
-<!--      right: 0;-->
-<!--    }-->
+    .bottomLeft {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
 
-<!--    @media (prefers-color-scheme: dark) {-->
-<!--      body {-->
-<!--        background-color: #000000;-->
-<!--          }-->
-<!--    }-->
-<!--  </style>-->
-<!--  <script id="splash-screen-script">-->
-<!--    function removeSplashFromWeb() {-->
-<!--      document.getElementById("splash")?.remove();-->
-<!--      document.getElementById("splash-branding")?.remove();-->
-<!--      document.body.style.background = "transparent";-->
-<!--    }-->
-<!--  </script>-->
+    .bottomRight {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #000000;
+          }
+    }
+  </style>
+  <script id="splash-screen-script">
+    function removeSplashFromWeb() {
+      document.getElementById("splash")?.remove();
+      document.getElementById("splash-branding")?.remove();
+      document.body.style.background = "transparent";
+    }
+  </script>
 </head>
 
 <body>
 <script>
-    const serviceWorkerVersion = "1945293350";
+    const serviceWorkerVersion = "1542179652";
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
@@ -209,5 +199,6 @@
     }
 
 </script>
+
 
 </body></html>
