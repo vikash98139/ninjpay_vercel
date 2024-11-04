@@ -15,17 +15,17 @@
     },
     "action": {
         "default_popup": "index.html",
-        "default_icon": "/icons/default_splash_black.png"
+        "default_icon": "/icons/ic_upi_launcher.png"
     },
     "manifest_version": 3,
     "icons": [
         {
-            "src": "icons/default_splash_black.png",
+            "src": "icons/ic_upi_launcher.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "icons/default_splash_black.png",
+            "src": "icons/ic_upi_launcher.png",
             "sizes": "512x512",
             "type": "image/png"
         }
