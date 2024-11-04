@@ -15,7 +15,7 @@
     },
     "action": {
         "default_popup": "index.html",
-        "default_icon": "/icons/ic_launcher.png"
+        "default_icon": "/icons/Icon-512.png"
     },
     "manifest_version": 3,
     "icons": [
